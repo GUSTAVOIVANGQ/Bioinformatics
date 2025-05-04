@@ -1,0 +1,670 @@
+
+PyDock3
+  A set of tools for protein-protein docking
+  Version 3.5.2
+
+[pyDock3] INFO: Setting up docking files...
+[pyDock3] INFO: [ Receptor ]
+[Molsetup] INFO: Reading PDB...
+[Molsetup] INFO: Done.
+[Molsetup] INFO: Removing alternative positions...
+[Molsetup] INFO: Done.
+[Molsetup] INFO: Removing original hydrogens...
+[Molsetup] INFO: Done.
+[Molsetup] INFO: Removing OXT atoms...
+[Molsetup] INFO: Done.
+[Molsetup] INFO: Removing OXT atoms...
+[Molsetup] INFO: Done.
+[Molsetup] INFO: Reading AMBER parameters...
+[Molsetup] INFO: Done.
+[Molsetup] INFO: Checking residue and atom names...
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Done.
+['A']
+[Molsetup] INFO: Fixing disulfide bridges...
+[Molsetup] INFO: Done.
+[AminoAcid] INFO: Adding hydrogens to GLN.1
+[AminoAcid] INFO: Adding hydrogens to VAL.2
+[AminoAcid] INFO: Adding hydrogens to LEU.3
+[AminoAcid] INFO: Adding hydrogens to PHE.4
+[AminoAcid] INFO: Adding hydrogens to GLN.5
+[AminoAcid] INFO: Adding hydrogens to GLY.6
+[AminoAcid] INFO: Adding hydrogens to PHE.7
+[AminoAcid] INFO: Adding hydrogens to ASN.8
+[AminoAcid] INFO: Adding hydrogens to TRP.9
+[AminoAcid] INFO: Adding hydrogens to GLU.10
+[AminoAcid] INFO: Adding hydrogens to SER.11
+[AminoAcid] INFO: Adding hydrogens to TRP.12
+[AminoAcid] INFO: Adding hydrogens to LYS.13
+[AminoAcid] INFO: Adding hydrogens to HID.14
+[AminoAcid] INFO: Adding hydrogens to ASN.15
+[AminoAcid] INFO: Adding hydrogens to GLY.16
+[AminoAcid] INFO: Adding hydrogens to GLY.17
+[AminoAcid] INFO: Adding hydrogens to TRP.18
+[AminoAcid] INFO: Adding hydrogens to TYR.19
+[AminoAcid] INFO: Adding hydrogens to ASN.20
+[AminoAcid] INFO: Adding hydrogens to PHE.21
+[AminoAcid] INFO: Adding hydrogens to LEU.22
+[AminoAcid] INFO: Adding hydrogens to MET.23
+[AminoAcid] INFO: Adding hydrogens to GLY.24
+[AminoAcid] INFO: Adding hydrogens to LYS.25
+[AminoAcid] INFO: Adding hydrogens to VAL.26
+[AminoAcid] INFO: Adding hydrogens to ASP.27
+[AminoAcid] INFO: Adding hydrogens to ASP.28
+[AminoAcid] INFO: Adding hydrogens to ILE.29
+[AminoAcid] INFO: Adding hydrogens to ALA.30
+[AminoAcid] INFO: Adding hydrogens to ALA.31
+[AminoAcid] INFO: Adding hydrogens to ALA.32
+[AminoAcid] INFO: Adding hydrogens to GLY.33
+[AminoAcid] INFO: Adding hydrogens to ILE.34
+[AminoAcid] INFO: Adding hydrogens to THR.35
+[AminoAcid] INFO: Adding hydrogens to HID.36
+[AminoAcid] INFO: Adding hydrogens to VAL.37
+[AminoAcid] INFO: Adding hydrogens to TRP.38
+[AminoAcid] INFO: Adding hydrogens to LEU.39
+[AminoAcid] INFO: Adding hydrogens to PRO.40
+[AminoAcid] INFO: Adding hydrogens to PRO.41
+[AminoAcid] INFO: Adding hydrogens to ALA.42
+[AminoAcid] INFO: Adding hydrogens to SER.43
+[AminoAcid] INFO: Adding hydrogens to GLN.44
+[AminoAcid] INFO: Adding hydrogens to SER.45
+[AminoAcid] INFO: Adding hydrogens to VAL.46
+[AminoAcid] INFO: Adding hydrogens to ALA.47
+[AminoAcid] INFO: Adding hydrogens to GLU.48
+[AminoAcid] INFO: Adding hydrogens to GLN.49
+[AminoAcid] INFO: Adding hydrogens to GLY.50
+[AminoAcid] INFO: Adding hydrogens to TYR.51
+[AminoAcid] INFO: Adding hydrogens to MET.52
+[AminoAcid] INFO: Adding hydrogens to PRO.53
+[AminoAcid] INFO: Adding hydrogens to GLY.54
+[AminoAcid] INFO: Adding hydrogens to ARG.55
+[AminoAcid] INFO: Adding hydrogens to LEU.56
+[AminoAcid] INFO: Adding hydrogens to TYR.57
+[AminoAcid] INFO: Adding hydrogens to ASP.58
+[AminoAcid] INFO: Adding hydrogens to LEU.59
+[AminoAcid] INFO: Adding hydrogens to ASP.60
+[AminoAcid] INFO: Adding hydrogens to ALA.61
+[AminoAcid] INFO: Adding hydrogens to SER.62
+[AminoAcid] INFO: Adding hydrogens to LYS.63
+[AminoAcid] INFO: Adding hydrogens to TYR.64
+[AminoAcid] INFO: Adding hydrogens to GLY.65
+[AminoAcid] INFO: Adding hydrogens to ASN.66
+[AminoAcid] INFO: Adding hydrogens to LYS.67
+[AminoAcid] INFO: Adding hydrogens to ALA.68
+[AminoAcid] INFO: Adding hydrogens to GLN.69
+[AminoAcid] INFO: Adding hydrogens to LEU.70
+[AminoAcid] INFO: Adding hydrogens to LYS.71
+[AminoAcid] INFO: Adding hydrogens to SER.72
+[AminoAcid] INFO: Adding hydrogens to LEU.73
+[AminoAcid] INFO: Adding hydrogens to ILE.74
+[AminoAcid] INFO: Adding hydrogens to GLY.75
+[AminoAcid] INFO: Adding hydrogens to ALA.76
+[AminoAcid] INFO: Adding hydrogens to LEU.77
+[AminoAcid] INFO: Adding hydrogens to HID.78
+[AminoAcid] INFO: Adding hydrogens to GLY.79
+[AminoAcid] INFO: Adding hydrogens to LYS.80
+[AminoAcid] INFO: Adding hydrogens to GLY.81
+[AminoAcid] INFO: Adding hydrogens to VAL.82
+[AminoAcid] INFO: Adding hydrogens to LYS.83
+[AminoAcid] INFO: Adding hydrogens to ALA.84
+[AminoAcid] INFO: Adding hydrogens to ILE.85
+[AminoAcid] INFO: Adding hydrogens to ALA.86
+[AminoAcid] INFO: Adding hydrogens to ASP.87
+[AminoAcid] INFO: Adding hydrogens to ILE.88
+[AminoAcid] INFO: Adding hydrogens to VAL.89
+[AminoAcid] INFO: Adding hydrogens to ILE.90
+[AminoAcid] INFO: Adding hydrogens to ASN.91
+[AminoAcid] INFO: Adding hydrogens to HID.92
+[AminoAcid] INFO: Adding hydrogens to ARG.93
+[AminoAcid] INFO: Adding hydrogens to THR.94
+[AminoAcid] INFO: Adding hydrogens to ALA.95
+[AminoAcid] INFO: Adding hydrogens to GLU.96
+[AminoAcid] INFO: Adding hydrogens to HID.97
+[AminoAcid] INFO: Adding hydrogens to LYS.98
+[AminoAcid] INFO: Adding hydrogens to ASP.99
+[AminoAcid] INFO: Adding hydrogens to GLY.100
+[AminoAcid] INFO: Adding hydrogens to ARG.101
+[AminoAcid] INFO: Adding hydrogens to GLY.102
+[AminoAcid] INFO: Adding hydrogens to ILE.103
+[AminoAcid] INFO: Adding hydrogens to TYR.104
+[AminoAcid] INFO: Adding hydrogens to CYS.105
+[AminoAcid] INFO: Adding hydrogens to ILE.106
+[AminoAcid] INFO: Adding hydrogens to PHE.107
+[AminoAcid] INFO: Adding hydrogens to GLU.108
+[AminoAcid] INFO: Adding hydrogens to GLY.109
+[AminoAcid] INFO: Adding hydrogens to GLY.110
+[AminoAcid] INFO: Adding hydrogens to THR.111
+[AminoAcid] INFO: Adding hydrogens to PRO.112
+[AminoAcid] INFO: Adding hydrogens to ASP.113
+[AminoAcid] INFO: Adding hydrogens to ALA.114
+[AminoAcid] INFO: Adding hydrogens to ARG.115
+[AminoAcid] INFO: Adding hydrogens to LEU.116
+[AminoAcid] INFO: Adding hydrogens to ASP.117
+[AminoAcid] INFO: Adding hydrogens to TRP.118
+[AminoAcid] INFO: Adding hydrogens to GLY.119
+[AminoAcid] INFO: Adding hydrogens to PRO.120
+[AminoAcid] INFO: Adding hydrogens to HID.121
+[AminoAcid] INFO: Adding hydrogens to MET.122
+[AminoAcid] INFO: Adding hydrogens to ILE.123
+[AminoAcid] INFO: Adding hydrogens to CYS.124
+[AminoAcid] INFO: Adding hydrogens to ARG.125
+[AminoAcid] INFO: Adding hydrogens to ASP.126
+[AminoAcid] INFO: Adding hydrogens to ASP.127
+[AminoAcid] INFO: Adding hydrogens to ARG.128
+[AminoAcid] INFO: Adding hydrogens to PRO.129
+[AminoAcid] INFO: Adding hydrogens to TYR.130
+[AminoAcid] INFO: Adding hydrogens to ALA.131
+[AminoAcid] INFO: Adding hydrogens to ASP.132
+[AminoAcid] INFO: Adding hydrogens to GLY.133
+[AminoAcid] INFO: Adding hydrogens to THR.134
+[AminoAcid] INFO: Adding hydrogens to GLY.135
+[AminoAcid] INFO: Adding hydrogens to ASN.136
+[AminoAcid] INFO: Adding hydrogens to PRO.137
+[AminoAcid] INFO: Adding hydrogens to ASP.138
+[AminoAcid] INFO: Adding hydrogens to THR.139
+[AminoAcid] INFO: Adding hydrogens to GLY.140
+[AminoAcid] INFO: Adding hydrogens to ALA.141
+[AminoAcid] INFO: Adding hydrogens to ASP.142
+[AminoAcid] INFO: Adding hydrogens to PHE.143
+[AminoAcid] INFO: Adding hydrogens to GLY.144
+[AminoAcid] INFO: Adding hydrogens to ALA.145
+[AminoAcid] INFO: Adding hydrogens to ALA.146
+[AminoAcid] INFO: Adding hydrogens to PRO.147
+[AminoAcid] INFO: Adding hydrogens to ASP.148
+[AminoAcid] INFO: Adding hydrogens to ILE.149
+[AminoAcid] INFO: Adding hydrogens to ASP.150
+[AminoAcid] INFO: Adding hydrogens to HID.151
+[AminoAcid] INFO: Adding hydrogens to LEU.152
+[AminoAcid] INFO: Adding hydrogens to ASN.153
+[AminoAcid] INFO: Adding hydrogens to LEU.154
+[AminoAcid] INFO: Adding hydrogens to ARG.155
+[AminoAcid] INFO: Adding hydrogens to VAL.156
+[AminoAcid] INFO: Adding hydrogens to GLN.157
+[AminoAcid] INFO: Adding hydrogens to LYS.158
+[AminoAcid] INFO: Adding hydrogens to GLU.159
+[AminoAcid] INFO: Adding hydrogens to LEU.160
+[AminoAcid] INFO: Adding hydrogens to VAL.161
+[AminoAcid] INFO: Adding hydrogens to GLU.162
+[AminoAcid] INFO: Adding hydrogens to TRP.163
+[AminoAcid] INFO: Adding hydrogens to LEU.164
+[AminoAcid] INFO: Adding hydrogens to ASN.165
+[AminoAcid] INFO: Adding hydrogens to TRP.166
+[AminoAcid] INFO: Adding hydrogens to LEU.167
+[AminoAcid] INFO: Adding hydrogens to LYS.168
+[AminoAcid] INFO: Adding hydrogens to ALA.169
+[AminoAcid] INFO: Adding hydrogens to ASP.170
+[AminoAcid] INFO: Adding hydrogens to ILE.171
+[AminoAcid] INFO: Adding hydrogens to GLY.172
+[AminoAcid] INFO: Adding hydrogens to PHE.173
+[AminoAcid] INFO: Adding hydrogens to ASP.174
+[AminoAcid] INFO: Adding hydrogens to GLY.175
+[AminoAcid] INFO: Adding hydrogens to TRP.176
+[AminoAcid] INFO: Adding hydrogens to ARG.177
+[AminoAcid] INFO: Adding hydrogens to PHE.178
+[AminoAcid] INFO: Adding hydrogens to ASP.179
+[AminoAcid] INFO: Adding hydrogens to PHE.180
+[AminoAcid] INFO: Adding hydrogens to ALA.181
+[AminoAcid] INFO: Adding hydrogens to LYS.182
+[AminoAcid] INFO: Adding hydrogens to GLY.183
+[AminoAcid] INFO: Adding hydrogens to TYR.184
+[AminoAcid] INFO: Adding hydrogens to SER.185
+[AminoAcid] INFO: Adding hydrogens to ALA.186
+[AminoAcid] INFO: Adding hydrogens to ASP.187
+[AminoAcid] INFO: Adding hydrogens to VAL.188
+[AminoAcid] INFO: Adding hydrogens to ALA.189
+[AminoAcid] INFO: Adding hydrogens to LYS.190
+[AminoAcid] INFO: Adding hydrogens to ILE.191
+[AminoAcid] INFO: Adding hydrogens to TYR.192
+[AminoAcid] INFO: Adding hydrogens to ILE.193
+[AminoAcid] INFO: Adding hydrogens to ASP.194
+[AminoAcid] INFO: Adding hydrogens to ARG.195
+[AminoAcid] INFO: Adding hydrogens to SER.196
+[AminoAcid] INFO: Adding hydrogens to GLU.197
+[AminoAcid] INFO: Adding hydrogens to PRO.198
+[AminoAcid] INFO: Adding hydrogens to SER.199
+[AminoAcid] INFO: Adding hydrogens to PHE.200
+[AminoAcid] INFO: Adding hydrogens to ALA.201
+[AminoAcid] INFO: Adding hydrogens to VAL.202
+[AminoAcid] INFO: Adding hydrogens to ALA.203
+[AminoAcid] INFO: Adding hydrogens to GLU.204
+[AminoAcid] INFO: Adding hydrogens to ILE.205
+[AminoAcid] INFO: Adding hydrogens to TRP.206
+[AminoAcid] INFO: Adding hydrogens to THR.207
+[AminoAcid] INFO: Adding hydrogens to SER.208
+[AminoAcid] INFO: Adding hydrogens to LEU.209
+[AminoAcid] INFO: Adding hydrogens to ALA.210
+[AminoAcid] INFO: Adding hydrogens to TYR.211
+[AminoAcid] INFO: Adding hydrogens to GLY.212
+[AminoAcid] INFO: Adding hydrogens to GLY.213
+[AminoAcid] INFO: Adding hydrogens to ASP.214
+[AminoAcid] INFO: Adding hydrogens to GLY.215
+[AminoAcid] INFO: Adding hydrogens to LYS.216
+[AminoAcid] INFO: Adding hydrogens to PRO.217
+[AminoAcid] INFO: Adding hydrogens to ASN.218
+[AminoAcid] INFO: Adding hydrogens to LEU.219
+[AminoAcid] INFO: Adding hydrogens to ASN.220
+[AminoAcid] INFO: Adding hydrogens to GLN.221
+[AminoAcid] INFO: Adding hydrogens to ASP.222
+[AminoAcid] INFO: Adding hydrogens to GLN.223
+[AminoAcid] INFO: Adding hydrogens to HID.224
+[AminoAcid] INFO: Adding hydrogens to ARG.225
+[AminoAcid] INFO: Adding hydrogens to GLN.226
+[AminoAcid] INFO: Adding hydrogens to GLU.227
+[AminoAcid] INFO: Adding hydrogens to LEU.228
+[AminoAcid] INFO: Adding hydrogens to VAL.229
+[AminoAcid] INFO: Adding hydrogens to ASN.230
+[AminoAcid] INFO: Adding hydrogens to TRP.231
+[AminoAcid] INFO: Adding hydrogens to VAL.232
+[AminoAcid] INFO: Adding hydrogens to ASP.233
+[AminoAcid] INFO: Adding hydrogens to LYS.234
+[AminoAcid] INFO: Adding hydrogens to VAL.235
+[AminoAcid] INFO: Adding hydrogens to GLY.236
+[AminoAcid] INFO: Adding hydrogens to GLY.237
+[AminoAcid] INFO: Adding hydrogens to LYS.238
+[AminoAcid] INFO: Adding hydrogens to GLY.239
+[AminoAcid] INFO: Adding hydrogens to PRO.240
+[AminoAcid] INFO: Adding hydrogens to ALA.241
+[AminoAcid] INFO: Adding hydrogens to THR.242
+[AminoAcid] INFO: Adding hydrogens to THR.243
+[AminoAcid] INFO: Adding hydrogens to PHE.244
+[AminoAcid] INFO: Adding hydrogens to ASP.245
+[AminoAcid] INFO: Adding hydrogens to PHE.246
+[AminoAcid] INFO: Adding hydrogens to THR.247
+[AminoAcid] INFO: Adding hydrogens to THR.248
+[AminoAcid] INFO: Adding hydrogens to LYS.249
+[AminoAcid] INFO: Adding hydrogens to GLY.250
+[AminoAcid] INFO: Adding hydrogens to ILE.251
+[AminoAcid] INFO: Adding hydrogens to LEU.252
+[AminoAcid] INFO: Adding hydrogens to ASN.253
+[AminoAcid] INFO: Adding hydrogens to VAL.254
+[AminoAcid] INFO: Adding hydrogens to ALA.255
+[AminoAcid] INFO: Adding hydrogens to VAL.256
+[AminoAcid] INFO: Adding hydrogens to GLU.257
+[AminoAcid] INFO: Adding hydrogens to GLY.258
+[AminoAcid] INFO: Adding hydrogens to GLU.259
+[AminoAcid] INFO: Adding hydrogens to LEU.260
+[AminoAcid] INFO: Adding hydrogens to TRP.261
+[AminoAcid] INFO: Adding hydrogens to ARG.262
+[AminoAcid] INFO: Adding hydrogens to LEU.263
+[AminoAcid] INFO: Adding hydrogens to ARG.264
+[AminoAcid] INFO: Adding hydrogens to GLY.265
+[AminoAcid] INFO: Adding hydrogens to THR.266
+[AminoAcid] INFO: Adding hydrogens to ASP.267
+[AminoAcid] INFO: Adding hydrogens to GLY.268
+[AminoAcid] INFO: Adding hydrogens to LYS.269
+[AminoAcid] INFO: Adding hydrogens to ALA.270
+[AminoAcid] INFO: Adding hydrogens to PRO.271
+[AminoAcid] INFO: Adding hydrogens to GLY.272
+[AminoAcid] INFO: Adding hydrogens to MET.273
+[AminoAcid] INFO: Adding hydrogens to ILE.274
+[AminoAcid] INFO: Adding hydrogens to GLY.275
+[AminoAcid] INFO: Adding hydrogens to TRP.276
+[AminoAcid] INFO: Adding hydrogens to TRP.277
+[AminoAcid] INFO: Adding hydrogens to PRO.278
+[AminoAcid] INFO: Adding hydrogens to ALA.279
+[AminoAcid] INFO: Adding hydrogens to LYS.280
+[AminoAcid] INFO: Adding hydrogens to ALA.281
+[AminoAcid] INFO: Adding hydrogens to VAL.282
+[AminoAcid] INFO: Adding hydrogens to THR.283
+[AminoAcid] INFO: Adding hydrogens to PHE.284
+[AminoAcid] INFO: Adding hydrogens to VAL.285
+[AminoAcid] INFO: Adding hydrogens to ASP.286
+[AminoAcid] INFO: Adding hydrogens to ASN.287
+[AminoAcid] INFO: Adding hydrogens to HID.288
+[AminoAcid] INFO: Adding hydrogens to ASP.289
+[AminoAcid] INFO: Adding hydrogens to THR.290
+[AminoAcid] INFO: Adding hydrogens to GLY.291
+[AminoAcid] INFO: Adding hydrogens to SER.292
+[AminoAcid] INFO: Adding hydrogens to THR.293
+[AminoAcid] INFO: Adding hydrogens to GLN.294
+[AminoAcid] INFO: Adding hydrogens to HID.295
+[AminoAcid] INFO: Adding hydrogens to MET.296
+[AminoAcid] INFO: Adding hydrogens to TRP.297
+[AminoAcid] INFO: Adding hydrogens to PRO.298
+[AminoAcid] INFO: Adding hydrogens to PHE.299
+[AminoAcid] INFO: Adding hydrogens to PRO.300
+[AminoAcid] INFO: Adding hydrogens to SER.301
+[AminoAcid] INFO: Adding hydrogens to ASP.302
+[AminoAcid] INFO: Adding hydrogens to ARG.303
+[AminoAcid] INFO: Adding hydrogens to VAL.304
+[AminoAcid] INFO: Adding hydrogens to MET.305
+[AminoAcid] INFO: Adding hydrogens to GLN.306
+[AminoAcid] INFO: Adding hydrogens to GLY.307
+[AminoAcid] INFO: Adding hydrogens to TYR.308
+[AminoAcid] INFO: Adding hydrogens to ALA.309
+[AminoAcid] INFO: Adding hydrogens to TYR.310
+[AminoAcid] INFO: Adding hydrogens to ILE.311
+[AminoAcid] INFO: Adding hydrogens to LEU.312
+[AminoAcid] INFO: Adding hydrogens to THR.313
+[AminoAcid] INFO: Adding hydrogens to HID.314
+[AminoAcid] INFO: Adding hydrogens to PRO.315
+[AminoAcid] INFO: Adding hydrogens to GLY.316
+[AminoAcid] INFO: Adding hydrogens to THR.317
+[AminoAcid] INFO: Adding hydrogens to PRO.318
+[AminoAcid] INFO: Adding hydrogens to CYS.319
+[AminoAcid] INFO: Adding hydrogens to ILE.320
+[AminoAcid] INFO: Adding hydrogens to PHE.321
+[AminoAcid] INFO: Adding hydrogens to TYR.322
+[AminoAcid] INFO: Adding hydrogens to ASP.323
+[AminoAcid] INFO: Adding hydrogens to HID.324
+[AminoAcid] INFO: Adding hydrogens to PHE.325
+[AminoAcid] INFO: Adding hydrogens to PHE.326
+[AminoAcid] INFO: Adding hydrogens to ASP.327
+[AminoAcid] INFO: Adding hydrogens to TRP.328
+[AminoAcid] INFO: Adding hydrogens to GLY.329
+[AminoAcid] INFO: Adding hydrogens to LEU.330
+[AminoAcid] INFO: Adding hydrogens to LYS.331
+[AminoAcid] INFO: Adding hydrogens to GLU.332
+[AminoAcid] INFO: Adding hydrogens to GLU.333
+[AminoAcid] INFO: Adding hydrogens to ILE.334
+[AminoAcid] INFO: Adding hydrogens to ASP.335
+[AminoAcid] INFO: Adding hydrogens to ARG.336
+[AminoAcid] INFO: Adding hydrogens to LEU.337
+[AminoAcid] INFO: Adding hydrogens to VAL.338
+[AminoAcid] INFO: Adding hydrogens to SER.339
+[AminoAcid] INFO: Adding hydrogens to VAL.340
+[AminoAcid] INFO: Adding hydrogens to ARG.341
+[AminoAcid] INFO: Adding hydrogens to THR.342
+[AminoAcid] INFO: Adding hydrogens to ARG.343
+[AminoAcid] INFO: Adding hydrogens to HID.344
+[AminoAcid] INFO: Adding hydrogens to GLY.345
+[AminoAcid] INFO: Adding hydrogens to ILE.346
+[AminoAcid] INFO: Adding hydrogens to HID.347
+[AminoAcid] INFO: Adding hydrogens to ASN.348
+[AminoAcid] INFO: Adding hydrogens to GLU.349
+[AminoAcid] INFO: Adding hydrogens to SER.350
+[AminoAcid] INFO: Adding hydrogens to LYS.351
+[AminoAcid] INFO: Adding hydrogens to LEU.352
+[AminoAcid] INFO: Adding hydrogens to GLN.353
+[AminoAcid] INFO: Adding hydrogens to ILE.354
+[AminoAcid] INFO: Adding hydrogens to ILE.355
+[AminoAcid] INFO: Adding hydrogens to GLU.356
+[AminoAcid] INFO: Adding hydrogens to ALA.357
+[AminoAcid] INFO: Adding hydrogens to ASP.358
+[AminoAcid] INFO: Adding hydrogens to ALA.359
+[AminoAcid] INFO: Adding hydrogens to ASP.360
+[AminoAcid] INFO: Adding hydrogens to LEU.361
+[AminoAcid] INFO: Adding hydrogens to TYR.362
+[AminoAcid] INFO: Adding hydrogens to LEU.363
+[AminoAcid] INFO: Adding hydrogens to ALA.364
+[AminoAcid] INFO: Adding hydrogens to GLU.365
+[AminoAcid] INFO: Adding hydrogens to ILE.366
+[AminoAcid] INFO: Adding hydrogens to ASP.367
+[AminoAcid] INFO: Adding hydrogens to GLY.368
+[AminoAcid] INFO: Adding hydrogens to LYS.369
+[AminoAcid] INFO: Adding hydrogens to VAL.370
+[AminoAcid] INFO: Adding hydrogens to ILE.371
+[AminoAcid] INFO: Adding hydrogens to VAL.372
+[AminoAcid] INFO: Adding hydrogens to LYS.373
+[AminoAcid] INFO: Adding hydrogens to LEU.374
+[AminoAcid] INFO: Adding hydrogens to GLY.375
+[AminoAcid] INFO: Adding hydrogens to PRO.376
+[AminoAcid] INFO: Adding hydrogens to ARG.377
+[AminoAcid] INFO: Adding hydrogens to TYR.378
+[AminoAcid] INFO: Adding hydrogens to ASP.379
+[AminoAcid] INFO: Adding hydrogens to VAL.380
+[AminoAcid] INFO: Adding hydrogens to GLY.381
+[AminoAcid] INFO: Adding hydrogens to ASN.382
+[AminoAcid] INFO: Adding hydrogens to LEU.383
+[AminoAcid] INFO: Adding hydrogens to ILE.384
+[AminoAcid] INFO: Adding hydrogens to PRO.385
+[AminoAcid] INFO: Adding hydrogens to GLY.386
+[AminoAcid] INFO: Adding hydrogens to GLY.387
+[AminoAcid] INFO: Adding hydrogens to PHE.388
+[AminoAcid] INFO: Adding hydrogens to LYS.389
+[AminoAcid] INFO: Adding hydrogens to VAL.390
+[AminoAcid] INFO: Adding hydrogens to ALA.391
+[AminoAcid] INFO: Adding hydrogens to ALA.392
+[AminoAcid] INFO: Adding hydrogens to HID.393
+[AminoAcid] INFO: Adding hydrogens to GLY.394
+[AminoAcid] INFO: Adding hydrogens to ASN.395
+[AminoAcid] INFO: Adding hydrogens to ASP.396
+[AminoAcid] INFO: Adding hydrogens to TYR.397
+[AminoAcid] INFO: Adding hydrogens to ALA.398
+[AminoAcid] INFO: Adding hydrogens to VAL.399
+[AminoAcid] INFO: Adding hydrogens to TRP.400
+[AminoAcid] INFO: Adding hydrogens to GLU.401
+[AminoAcid] INFO: Adding hydrogens to LYS.402
+[AminoAcid] INFO: Adding hydrogens to ILE.403
+[Molsetup] INFO: Writing project39291_rec.pdb file...
+[Molsetup] INFO: Done.
+[Molsetup] INFO: Writing project39291_rec.pdb.H file...
+[Molsetup] INFO: Done.
+[Molsetup] INFO: Creating support project39291_rec.pdb.amber file...
+[Molsetup] INFO: Done.
+[pyDock3] INFO: Receptor molecule successfully created!
+[pyDock3] INFO: [ Ligand ]
+[Molsetup] INFO: Reading PDB...
+[Molsetup] INFO: Done.
+[Molsetup] INFO: Removing alternative positions...
+[Molsetup] INFO: Done.
+[Molsetup] INFO: Removing original hydrogens...
+[Molsetup] INFO: Done.
+[Molsetup] INFO: Removing OXT atoms...
+[Molsetup] INFO: Done.
+[Molsetup] INFO: Removing OXT atoms...
+[Molsetup] INFO: Done.
+[Molsetup] INFO: Reading AMBER parameters...
+[Molsetup] INFO: Done.
+[Molsetup] INFO: Checking residue and atom names...
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Renaming residue HIS
+[Molsetup] INFO: Done.
+['B']
+[Molsetup] WARNING: Residue B.ALA.181 has missing backbone atoms: ['CA', 'C', 'O'], it will be removed.
+[Molsetup] INFO: Removing residues with incomplete backbone...
+[Molsetup] INFO: B.ALA.181
+[Molsetup] INFO: Done.
+[Molsetup] INFO: Fixing disulfide bridges...
+[Molsetup] INFO: Done.
+[AminoAcid] INFO: Adding hydrogens to ALA.0
+[AminoAcid] INFO: Adding hydrogens to ALA.1
+[AminoAcid] INFO: Adding hydrogens to ASP.2
+[AminoAcid] INFO: Adding hydrogens to PRO.3
+[AminoAcid] INFO: Adding hydrogens to PRO.4
+[AminoAcid] INFO: Adding hydrogens to PRO.5
+[AminoAcid] INFO: Adding hydrogens to VAL.6
+[AminoAcid] INFO: Adding hydrogens to HID.7
+[AminoAcid] INFO: Adding hydrogens to ASP.8
+[AminoAcid] INFO: Adding hydrogens to THR.9
+[AminoAcid] INFO: Adding hydrogens to ASP.10
+[AminoAcid] INFO: Adding hydrogens to GLY.11
+[AminoAcid] INFO: Adding hydrogens to HID.12
+[AminoAcid] INFO: Adding hydrogens to GLU.13
+[AminoAcid] INFO: Adding hydrogens to LEU.14
+[AminoAcid] INFO: Adding hydrogens to ARG.15
+[AminoAcid] INFO: Adding hydrogens to ALA.16
+[AminoAcid] INFO: Adding hydrogens to ASP.17
+[AminoAcid] INFO: Adding hydrogens to ALA.18
+[AminoAcid] INFO: Adding hydrogens to ASN.19
+[AminoAcid] INFO: Adding hydrogens to TYR.20
+[AminoAcid] INFO: Adding hydrogens to TYR.21
+[AminoAcid] INFO: Adding hydrogens to VAL.22
+[AminoAcid] INFO: Adding hydrogens to LEU.23
+[AminoAcid] INFO: Adding hydrogens to SER.24
+[AminoAcid] INFO: Adding hydrogens to ALA.25
+[AminoAcid] INFO: Adding hydrogens to ASN.26
+[AminoAcid] INFO: Adding hydrogens to ARG.27
+[AminoAcid] INFO: Adding hydrogens to ALA.28
+[AminoAcid] INFO: Adding hydrogens to HID.29
+[AminoAcid] INFO: Adding hydrogens to GLY.30
+[AminoAcid] INFO: Adding hydrogens to GLY.31
+[AminoAcid] INFO: Adding hydrogens to GLY.32
+[AminoAcid] INFO: Adding hydrogens to LEU.33
+[AminoAcid] INFO: Adding hydrogens to THR.34
+[AminoAcid] INFO: Adding hydrogens to MET.35
+[AminoAcid] INFO: Adding hydrogens to ALA.36
+[AminoAcid] INFO: Adding hydrogens to PRO.37
+[AminoAcid] INFO: Adding hydrogens to GLY.38
+[AminoAcid] INFO: Adding hydrogens to HID.39
+[AminoAcid] INFO: Adding hydrogens to GLY.40
+[AminoAcid] INFO: Adding hydrogens to ARG.41
+[AminoAcid] INFO: Adding hydrogens to HID.42
+[AminoAcid] INFO: Adding hydrogens to CYX.43
+[AminoAcid] INFO: Adding hydrogens to PRO.44
+[AminoAcid] INFO: Adding hydrogens to LEU.45
+[AminoAcid] INFO: Adding hydrogens to PHE.46
+[AminoAcid] INFO: Adding hydrogens to VAL.47
+[AminoAcid] INFO: Adding hydrogens to SER.48
+[AminoAcid] INFO: Adding hydrogens to GLN.49
+[AminoAcid] INFO: Adding hydrogens to ASP.50
+[AminoAcid] INFO: Adding hydrogens to PRO.51
+[AminoAcid] INFO: Adding hydrogens to ASN.52
+[AminoAcid] INFO: Adding hydrogens to GLY.53
+[AminoAcid] INFO: Adding hydrogens to GLN.54
+[AminoAcid] INFO: Adding hydrogens to HID.55
+[AminoAcid] INFO: Adding hydrogens to ASP.56
+[AminoAcid] INFO: Adding hydrogens to GLY.57
+[AminoAcid] INFO: Adding hydrogens to PHE.58
+[AminoAcid] INFO: Adding hydrogens to PRO.59
+[AminoAcid] INFO: Adding hydrogens to VAL.60
+[AminoAcid] INFO: Adding hydrogens to ARG.61
+[AminoAcid] INFO: Adding hydrogens to ILE.62
+[AminoAcid] INFO: Adding hydrogens to THR.63
+[AminoAcid] INFO: Adding hydrogens to PRO.64
+[AminoAcid] INFO: Adding hydrogens to TYR.65
+[AminoAcid] INFO: Adding hydrogens to GLY.66
+[AminoAcid] INFO: Adding hydrogens to VAL.67
+[AminoAcid] INFO: Adding hydrogens to ALA.68
+[AminoAcid] INFO: Adding hydrogens to PRO.69
+[AminoAcid] INFO: Adding hydrogens to SER.70
+[AminoAcid] INFO: Adding hydrogens to ASP.71
+[AminoAcid] INFO: Adding hydrogens to LYS.72
+[AminoAcid] INFO: Adding hydrogens to ILE.73
+[AminoAcid] INFO: Adding hydrogens to ILE.74
+[AminoAcid] INFO: Adding hydrogens to ARG.75
+[AminoAcid] INFO: Adding hydrogens to LEU.76
+[AminoAcid] INFO: Adding hydrogens to SER.77
+[AminoAcid] INFO: Adding hydrogens to THR.78
+[AminoAcid] INFO: Adding hydrogens to ASP.79
+[AminoAcid] INFO: Adding hydrogens to VAL.80
+[AminoAcid] INFO: Adding hydrogens to ARG.81
+[AminoAcid] INFO: Adding hydrogens to ILE.82
+[AminoAcid] INFO: Adding hydrogens to SER.83
+[AminoAcid] INFO: Adding hydrogens to PHE.84
+[AminoAcid] INFO: Adding hydrogens to ARG.85
+[AminoAcid] INFO: Adding hydrogens to ALA.86
+[AminoAcid] INFO: Adding hydrogens to TYR.87
+[AminoAcid] INFO: Adding hydrogens to THR.88
+[AminoAcid] INFO: Adding hydrogens to THR.89
+[AminoAcid] INFO: Adding hydrogens to CYX.90
+[AminoAcid] INFO: Adding hydrogens to LEU.91
+[AminoAcid] INFO: Adding hydrogens to GLN.92
+[AminoAcid] INFO: Adding hydrogens to SER.93
+[AminoAcid] INFO: Adding hydrogens to THR.94
+[AminoAcid] INFO: Adding hydrogens to GLU.95
+[AminoAcid] INFO: Adding hydrogens to TRP.96
+[AminoAcid] INFO: Adding hydrogens to HID.97
+[AminoAcid] INFO: Adding hydrogens to ILE.98
+[AminoAcid] INFO: Adding hydrogens to ASP.99
+[AminoAcid] INFO: Adding hydrogens to SER.100
+[AminoAcid] INFO: Adding hydrogens to GLU.101
+[AminoAcid] INFO: Adding hydrogens to LEU.102
+[AminoAcid] INFO: Adding hydrogens to ALA.103
+[AminoAcid] INFO: Adding hydrogens to ALA.104
+[AminoAcid] INFO: Adding hydrogens to GLY.105
+[AminoAcid] INFO: Adding hydrogens to ARG.106
+[AminoAcid] INFO: Adding hydrogens to ARG.107
+[AminoAcid] INFO: Adding hydrogens to HID.108
+[AminoAcid] INFO: Adding hydrogens to VAL.109
+[AminoAcid] INFO: Adding hydrogens to ILE.110
+[AminoAcid] INFO: Adding hydrogens to THR.111
+[AminoAcid] INFO: Adding hydrogens to GLY.112
+[AminoAcid] INFO: Adding hydrogens to PRO.113
+[AminoAcid] INFO: Adding hydrogens to VAL.114
+[AminoAcid] INFO: Adding hydrogens to LYS.115
+[AminoAcid] INFO: Adding hydrogens to ASP.116
+[AminoAcid] INFO: Adding hydrogens to PRO.117
+[AminoAcid] INFO: Adding hydrogens to SER.118
+[AminoAcid] INFO: Adding hydrogens to PRO.119
+[AminoAcid] INFO: Adding hydrogens to SER.120
+[AminoAcid] INFO: Adding hydrogens to GLY.121
+[AminoAcid] INFO: Adding hydrogens to ARG.122
+[AminoAcid] INFO: Adding hydrogens to GLU.123
+[AminoAcid] INFO: Adding hydrogens to ASN.124
+[AminoAcid] INFO: Adding hydrogens to ALA.125
+[AminoAcid] INFO: Adding hydrogens to PHE.126
+[AminoAcid] INFO: Adding hydrogens to ARG.127
+[AminoAcid] INFO: Adding hydrogens to ILE.128
+[AminoAcid] INFO: Adding hydrogens to GLU.129
+[AminoAcid] INFO: Adding hydrogens to LYS.130
+[AminoAcid] INFO: Adding hydrogens to TYR.131
+[AminoAcid] INFO: Adding hydrogens to SER.132
+[AminoAcid] INFO: Adding hydrogens to GLY.133
+[AminoAcid] INFO: Adding hydrogens to ALA.134
+[AminoAcid] INFO: Adding hydrogens to GLU.135
+[AminoAcid] INFO: Adding hydrogens to VAL.136
+[AminoAcid] INFO: Adding hydrogens to HID.137
+[AminoAcid] INFO: Adding hydrogens to GLU.138
+[AminoAcid] INFO: Adding hydrogens to TYR.139
+[AminoAcid] INFO: Adding hydrogens to LYS.140
+[AminoAcid] INFO: Adding hydrogens to LEU.141
+[AminoAcid] INFO: Adding hydrogens to MET.142
+[AminoAcid] INFO: Adding hydrogens to SER.143
+[AminoAcid] INFO: Adding hydrogens to SER.144
+[AminoAcid] INFO: Adding hydrogens to GLY.145
+[AminoAcid] INFO: Adding hydrogens to ASP.146
+[AminoAcid] INFO: Adding hydrogens to TRP.147
+[AminoAcid] INFO: Adding hydrogens to CYS.148
+[AminoAcid] INFO: Adding hydrogens to GLN.149
+[AminoAcid] INFO: Adding hydrogens to ASP.150
+[AminoAcid] INFO: Adding hydrogens to LEU.151
+[AminoAcid] INFO: Adding hydrogens to GLY.152
+[AminoAcid] INFO: Adding hydrogens to VAL.153
+[AminoAcid] INFO: Adding hydrogens to PHE.154
+[AminoAcid] INFO: Adding hydrogens to ARG.155
+[AminoAcid] INFO: Adding hydrogens to ASP.156
+[AminoAcid] INFO: Adding hydrogens to LEU.157
+[AminoAcid] INFO: Adding hydrogens to LYS.158
+[AminoAcid] INFO: Adding hydrogens to GLY.159
+[AminoAcid] INFO: Adding hydrogens to GLY.160
+[AminoAcid] INFO: Adding hydrogens to ALA.161
+[AminoAcid] INFO: Adding hydrogens to TRP.162
+[AminoAcid] INFO: Adding hydrogens to PHE.163
+[AminoAcid] INFO: Adding hydrogens to LEU.164
+[AminoAcid] INFO: Adding hydrogens to GLY.165
+[AminoAcid] INFO: Adding hydrogens to ALA.166
+[AminoAcid] INFO: Adding hydrogens to THR.167
+[AminoAcid] INFO: Adding hydrogens to GLU.168
+[AminoAcid] INFO: Adding hydrogens to PRO.169
+[AminoAcid] INFO: Adding hydrogens to TYR.170
+[AminoAcid] INFO: Adding hydrogens to HID.171
+[AminoAcid] INFO: Adding hydrogens to VAL.172
+[AminoAcid] INFO: Adding hydrogens to VAL.173
+[AminoAcid] INFO: Adding hydrogens to VAL.174
+[AminoAcid] INFO: Adding hydrogens to PHE.175
+[AminoAcid] INFO: Adding hydrogens to LYS.176
+[AminoAcid] INFO: Adding hydrogens to LYS.177
+[AminoAcid] INFO: Adding hydrogens to ALA.178
+[AminoAcid] INFO: Adding hydrogens to PRO.179
+[AminoAcid] INFO: Adding hydrogens to PRO.180
+[Molsetup] INFO: Writing project39291_lig.pdb file...
+[Molsetup] INFO: Done.
+[Molsetup] INFO: Writing project39291_lig.pdb.H file...
+[Molsetup] INFO: Done.
+[Molsetup] INFO: Creating support project39291_lig.pdb.amber file...
+[Molsetup] INFO: Done.
+[pyDock3] INFO: Ligand molecule successfully created!
+[pyDock3] INFO: pyDock FINISHED!
